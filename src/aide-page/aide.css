@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.result {
+  width: 100%;
+  /* height: 100%; */
+  background: url("../assets/bg.png");
+  background-size: cover;
+  background-repeat: repeat;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100vw;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  -webkit-app-region: drag;
+  border-bottom: 1px solid #787486;
+}
+
+.logo {
+  border-right: 1px #787486 solid;
+  padding: 150px 50px 150px 50px;
+}
+
+.icons {
+  color: #787486;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-right: 25px;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+}
+
+.under-header {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+}
+
+aside {
+  font-family: "Inter", sans-serif;
+  color: #787486;
+  width: 215px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 150px;
+  gap: 100px;
+  border-right: 1px #787486 solid;
+  overflow: hidden;
+}
+
+.acceuil,
+.Aide,
+.Quitter {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  align-items: center;
+  margin-left: 25%;
+}
+
+.main-section {
+  width: calc(100% - 215px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  color: #555555;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #787486;
+}
+h1 {
+  margin-left: 10%;
+  font-size: 32px;
+  letter-spacing: 2px;
+  background: linear-gradient(to bottom, transparent 70%, #a996f6 20%);
+
+  align-self: flex-start;
+}
+.accordion {
+  /* align-self: flex-start; */
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.question {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+.titre_quest {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+}
+h2 {
+  margin-bottom: 25px;
+  align-self: center;
+}
+.rephamaz {
+  display: flex;
+}
+
+.rep {
+  display: none;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  gap: 40px;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input,
+textarea,
+select {
+  outline: none;
+  border: 3px solid #a996f6;
+  border-radius: 4px;
+  font-size: 24px;
+}
+.mail {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center; */
+  width: 100%;
+}
+textarea {
+  height: 100px;
+  width: 100%;
+}
+.messages {
+  display: flex;
+  flex-direction: row;
+}
+.envoyer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+input {
+  width: 100%;
+  height: 50px;
+  caret-color: #a996f6;
+  line-height: 100%;
+}
+.prenom,
+.nom {
+  width: 45%;
+}
+form {
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.btn {
+  color: white;
+  background-color: #a996f6;
+  width: 50%;
+}
+
+.contact-titre {
+  margin-bottom: 30px;
+  text-align: center;
+}
